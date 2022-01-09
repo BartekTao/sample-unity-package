@@ -11,7 +11,7 @@ namespace OpenLib.Collections
     {
         public TreeNode() { }
 
-        public TreeNode(T value, TreeNode<T> left, TreeNode<T> right) 
+        public TreeNode(T value, TreeNode<T> left = null, TreeNode<T> right = null) 
         {
             Value = value;
             Left = left;

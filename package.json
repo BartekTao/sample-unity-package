@@ -3,5 +3,12 @@
   "version": "1.0.0",
   "displayName": "Sample Unity Package",
   "author": "Bartek Tao",
-  "type": "library"
+  "type": "library",
+  "samples": [
+    {
+      "displayName": "collections",
+      "description": "Contains sample scripts for tree traversal",
+      "path": "Samples~/Collections"
+    }
+  ]
 }
