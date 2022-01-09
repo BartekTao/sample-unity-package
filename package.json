@@ -1,0 +1,7 @@
+{
+  "name": "com.openlib.sample-unity-package",
+  "version": "1.0.0",
+  "displayName": "Sample Unity Package",
+  "author": "Bartek Tao",
+  "type": "library"
+}
