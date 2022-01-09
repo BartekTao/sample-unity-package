@@ -3,24 +3,24 @@ using System.Collections.Generic;
 
 namespace OpenLib.Collections
 {
-    public class Tree<T>
+    /// <summary>
+    /// Binary Tree
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    public class TreeNode<T>
     {
+        public TreeNode() { }
 
-    }
-
-    public class Node<T>
-    {
-        public Node() { }
-        public Node(Node<T> next, Node<T> previous, T value)
+        public TreeNode(T value, TreeNode<T> left, TreeNode<T> right) 
         {
-            Next = next;
-            Previous = previous;
             Value = value;
+            Left = left;
+            Right = right;
         }
 
-        public Node<T> Next { get; set; }
+        public TreeNode<T> Left { get; set; }
 
-        public Node<T> Previous { get; set; }
+        public TreeNode<T> Right { get; set; }
 
         public T Value { get; set; }
     }
